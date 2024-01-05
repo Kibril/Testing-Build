@@ -5,15 +5,35 @@ console.info(
 );
 
 onEvent("item.registry", (event) => {
-  // Register new items here
-  event.create("wooden_mechanism").texture("kubejs:item/wooden_mechanism").displayName("Wooden mechanism")
-  event.create("ice_mechanism").texture("kubejs:item/andesite_mechanism").displayName("Andesite mechanism")
-  event.create("lava_mechanism").texture("kubejs:item/andesite_mechanism").displayName("Andesite mechanism")
-  event.create("andesite_mechanism").texture("kubejs:item/andesite_mechanism").displayName("Andesite mechanism")
-  event.create("copper_mechanism").texture("kubejs:item/copper_mechanism").displayName("Copper mechanism")
-  event.create("brass_mechanism").texture("kubejs:item/brass_mechanism").displayName("Brass mechanism")
-  event.create("logic_mechanism").texture("kubejs:item/logic_mechanism").displayName("Logic mechanism")
-  event.create("incomplete_radiant-shadow_mechanism").texture("kubejs:item/incomplete_radiant-shadow_mechanism_animation").displayName("Incomplete radiant-shadow mechanism")
+  // Dirty Crushed Ore
+  event
+    .create("inpurified_iron")
+    .texture("kubejs:item/crushed_raw_iron_inpurified")
+    .displayName("Inpurified Crushed Raw Iron");
+  event
+    .create("inpurified_copper")
+    .texture("kubejs:item/crushed_raw_copper_inpurified")
+    .displayName("Inpurified Crushed Raw Copper");
+  event
+    .create("inpurified_gold")
+    .texture("kubejs:item/crushed_raw_gold_inpurified")
+    .displayName("Inpurified Crushed Raw Gold");
+  event
+    .create("inpurified_zinc")
+    .texture("kubejs:item/crushed_raw_zinc_inpurified")
+    .displayName("Inpurified Crushed Raw Zinc");
+  event
+    .create("inpurified_tin")
+    .texture("kubejs:item/crushed_raw_tin_inpurified")
+    .displayName("Inpurified Crushed Raw Tin");
+  event
+    .create("inpurified_aluminum")
+    .texture("kubejs:item/crushed_raw_aluminum_inpurified")
+    .displayName("Inpurified Crushed Raw Aluminum");
+  event
+    .create("inpurified_cobalt")
+    .texture("kubejs:item/crushed_raw_cobalt_inpurified")
+    .displayName("Inpurified Crushed Raw Cobalt");
 });
 
 onEvent("block.registry", (event) => {

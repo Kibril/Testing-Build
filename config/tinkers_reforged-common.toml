@@ -13,7 +13,7 @@ adaptingModifierCap = 15.0
 	maxY = 120
 	#Ore vein count
 	#Range: 1 ~ 100
-	veinCount = 20
+	veinCount = 15
 	#Ore vein size
 	#Range: 1 ~ 10
 	veinSize = 4
@@ -30,7 +30,7 @@ adaptingModifierCap = 15.0
 	maxY = 100
 	#Ore vein count
 	#Range: 1 ~ 40
-	veinCount = 10
+	veinCount = 5
 	#Ore vein size
 	#Range: 1 ~ 40
 	veinSize = 3
@@ -47,7 +47,7 @@ adaptingModifierCap = 15.0
 	maxY = 5
 	#Ore vein count
 	#Range: 1 ~ 40
-	veinCount = 10
+	veinCount = 5
 	#Ore vein size
 	#Range: 1 ~ 40
 	veinSize = 4
@@ -64,7 +64,7 @@ adaptingModifierCap = 15.0
 	maxY = 5
 	#Ore vein count
 	#Range: 1 ~ 40
-	veinCount = 10
+	veinCount = 5
 	#Ore vein size
 	#Range: 1 ~ 40
 	veinSize = 4
@@ -81,7 +81,7 @@ adaptingModifierCap = 15.0
 	maxY = 60
 	#Ore vein count
 	#Range: 1 ~ 100
-	veinCount = 10
+	veinCount = 5
 	#Ore vein size
 	#Range: 1 ~ 10
 	veinSize = 3
