@@ -56,6 +56,60 @@ onEvent("recipes", (event) => {
   event.remove({ id: "minecraft:gold_ingot_from_smelting_nether_gold_ore" });
   event.remove({ id: "minecraft:quartz_from_blasting" });
   event.remove({ id: "minecraft:quartz" });
+  //vanila crafting remove
+  event.remove({ input: "minecraft:wooden_pickaxe" });
+  event.remove({ output: "minecraft:wooden_pickaxe" });
+  event.remove({ input: "minecraft:stone_pickaxe" });
+  event.remove({ output: "minecraft:stone_pickaxe" });
+  event.remove({ input: "minecraft:golden_pickaxe" });
+  event.remove({ output: "minecraft:golden_pickaxe" });
+  event.remove({ input: "minecraft:iron_pickaxe" });
+  event.remove({ output: "minecraft:iron_pickaxe" });
+  event.remove({ input: "minecraft:diamond_pickaxe" });
+  event.remove({ output: "minecraft:diamond_pickaxe" });
+  event.remove({ input: "minecraft:netherite_pickaxe" });
+  event.remove({ output: "minecraft:netherite_pickaxe" });
+  event.remove({ input: "minecraft:wooden_shovel" });
+  event.remove({ output: "minecraft:wooden_shovel" });
+  event.remove({ input: "minecraft:stone_shovel" });
+  event.remove({ output: "minecraft:stone_shovel" });
+  event.remove({ input: "minecraft:golden_shovel" });
+  event.remove({ output: "minecraft:golden_shovel" });
+  event.remove({ input: "minecraft:iron_shovel" });
+  event.remove({ output: "minecraft:iron_shovel" });
+  event.remove({ input: "minecraft:diamond_shovel" });
+  event.remove({ output: "minecraft:diamond_shovel" });
+  event.remove({ input: "minecraft:netherite_shovel" });
+  event.remove({ output: "minecraft:netherite_shovel" });
+  event.remove({ input: "minecraft:wooden_axe" });
+  event.remove({ output: "minecraft:wooden_axe" });
+  event.remove({ input: "minecraft:stone_axe" });
+  event.remove({ output: "minecraft:stone_axe" });
+  event.remove({ input: "minecraft:golden_axe" });
+  event.remove({ output: "minecraft:golden_axe" });
+  event.remove({ input: "minecraft:iron_axe" });
+  event.remove({ output: "minecraft:iron_axe" });
+  event.remove({ input: "minecraft:diamond_axe" });
+  event.remove({ output: "minecraft:diamond_axe" });
+  event.remove({ input: "minecraft:netherite_axe" });
+  event.remove({ output: "minecraft:netherite_axe" });
+  event.remove({ input: "minecraft:wooden_hoe" });
+  event.remove({ output: "minecraft:wooden_hoe" });
+  event.remove({ input: "minecraft:stone_hoe" });
+  event.remove({ output: "minecraft:stone_hoe" });
+  event.remove({ input: "minecraft:golden_hoe" });
+  event.remove({ output: "minecraft:golden_hoe" });
+  event.remove({ input: "minecraft:iron_hoe" });
+  event.remove({ output: "minecraft:iron_hoe" });
+  event.remove({ input: "minecraft:diamond_hoe" });
+  event.remove({ output: "minecraft:diamond_hoe" });
+  event.remove({ input: "minecraft:netherite_hoe" });
+  event.remove({ output: "minecraft:netherite_hoe" });
+  event.remove({ input: "minecraft:bow" });
+  event.remove({ output: "minecraft:bow" });
+  event.remove({ id: "minecraft:dispenser"});
+  event.remove({ input: "minecraft:crossbow" });
+  event.remove({ output: "minecraft:crossbow" });
   //////////
   //CREATE//
   //////////
@@ -169,6 +223,81 @@ onEvent("recipes", (event) => {
   event.remove({ id: "create_dd:blasting/tin_ingot_from_raw_ore" });
   event.remove({ id: "create_dd:smelting/tin_ingot_from_crushed" });
   event.remove({ id: "create_dd:blasting/tin_ingot_from_crushed" });
+  event.remove({ id: "create_dd:mechanical_crafting/forest_ravager"});
+  event.remove({ id: "create_dd:crafting/deforester_saw" });
+  //create_sa recipes remove
+  event.remove({ id: "create_sa:brass_drill_head_recipe" });
+  event.remove({ id: "create_sa:brass_pickaxe_recipe" });
+  event.remove({ id: "create_sa:zinc_pickaxe_recipe" });
+  event.remove({ id: "create_sa:copper_pickaxe_recipe" });
+  event.remove({ id: "create_sa:experience_pickaxe_recipe" });
+  event.remove({ id: "create_sa:brass_axe_recipe" });
+  event.remove({ id: "create_sa:zinc_axe_recipe" });
+  event.remove({ id: "create_sa:copper_axe_recipe" });
+  event.remove({ id: "create_sa:experience_axe_recipe" });
+  event.remove({ id: "create_sa:brass_sword_recipe" });
+  event.remove({ id: "create_sa:zinc_sword_recipe" });
+  event.remove({ id: "create_sa:copper_sword_recipe" });
+  event.remove({ id: "create_sa:experience_sword_recipe" });
+  event.remove({ id: "create_sa:brass_hoe_recipe" });
+  event.remove({ id: "create_sa:zinc_hoe_recipe" });
+  event.remove({ id: "create_sa:copper_hoe_recipe" });
+  event.remove({ id: "create_sa:brass_shovel_recipe" });
+  event.remove({ id: "create_sa:zinc_shovel_recipe" });
+  event.remove({ id: "create_sa:copper_shovel_recipe" });
+  event.remove({ id: "create_sa:experience_shovel_recipe" });
+  //////////////////////////
+  //SOPHISTICATEDBACKPACKS//
+  //////////////////////////
+  //sophisticatedbackpacks crafting remove
+  event.remove({ id: "sophisticatedbackpacks:tool_swapper_upgrade"});
+  ///////////////
+  //AQUACULTURE//
+  ///////////////
+  //aquaculture crafting remove
+  event.remove({ id: "aquaculture:neptunium_pickaxe" });
+  event.remove({ id: "aquaculture:neptunium_axe" });
+  event.remove({ id: "aquaculture:neptunium_sword" });
+  event.remove({ id: "aquaculture:neptunium_shovel" });
+  event.remove({ id: "aquaculture:neptunium_hoe" });
+  /////////////////
+  //FARMESDELIGHT//
+  /////////////////
+  //farmersdelight crafting remove
+  event.remove({ id: "farmersdelight:cooking_pot" });
+  //////////////
+  //GRAPPLEMOD//
+  //////////////
+  event.remove({ id: "grapplemod:throwupgradeitem" });
+  /////////
+  //QUARK//
+  /////////
+  event.remove ({ id: "quark:tweaks/crafting/utility/misc/dispenser_bow"});
+  ////////////
+  //ALEXSMOBS/
+  ////////////
+  event.remove ({ id:"alexsmobs:squid_grapple"})
+  /////////////////
+  //TWILIGHTFOREST/
+  /////////////////
+  //twilightforest recipe remove
+  event.remove({ id: "twilightforest:equipment/ironwood_pickaxe" });
+  event.remove({ id: "twilightforest:equipment/fiery_pickaxe" });
+  event.remove({ id: "twilightforest:equipment/fiery_iron_pickaxe" });
+  event.remove({ id: "twilightforest:equipment/steeleaf_pickaxe" });
+  event.remove({ id: "twilightforest:equipment/knightmetal_pickaxe" });
+  event.remove({ id: "twilightforest:equipment/ironwood_axe" });
+  event.remove({ id: "twilightforest:equipment/steeleaf_axe" });
+  event.remove({ id: "twilightforest:equipment/knightmetal_axe" });
+  event.remove({ id: "twilightforest:equipment/ironwood_sword" });
+  event.remove({ id: "twilightforest:equipment/fiery_sword" });
+  event.remove({ id: "twilightforest:equipment/fiery_iron_sword" });
+  event.remove({ id: "twilightforest:equipment/steeleaf_sword" });
+  event.remove({ id: "twilightforest:equipment/knightmetal_sword" });
+  event.remove({ id: "twilightforest:equipment/ironwood_hoe" });
+  event.remove({ id: "twilightforest:equipment/steeleaf_hoe" });
+  event.remove({ id: "twilightforest:equipment/ironwood_shovel" });
+  event.remove({ id: "twilightforest:equipment/steeleaf_shovel" });
 });
 
 onEvent("item.tags", (event) => {
