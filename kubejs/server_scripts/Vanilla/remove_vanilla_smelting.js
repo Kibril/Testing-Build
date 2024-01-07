@@ -136,7 +136,6 @@ onEvent("recipes", (event) => {
   event.remove({ id: "create:splashing/crushed_raw_gold" });
   event.remove({ id: "create:splashing/crushed_raw_zinc" });
   event.remove({ id: "econstruct:create/splashing/crushed_raw_cobalt" });
-  event.remove({ id: "create_dd:splashing/crushed_raw_tin" });
   //create crushing remove
   event.remove({ id: "create:crushing/iron_ore" });
   event.remove({ id: "create:crushing/copper_ore" });
@@ -216,15 +215,6 @@ onEvent("recipes", (event) => {
   //enigmaticlegacy smelting remove
   event.remove({ id: "enigmaticlegacy:etherium_ingot_from_blasting" });
   event.remove({ id: "enigmaticlegacy:etherium_ingot" });
-  //create_dd smelting remove
-  event.remove({ id: "create_dd:smelting/tin_ingot_from_ore" });
-  event.remove({ id: "create_dd:blasting/tin_ingot_from_ore" });
-  event.remove({ id: "create_dd:smelting/tin_ingot_from_raw_ore" });
-  event.remove({ id: "create_dd:blasting/tin_ingot_from_raw_ore" });
-  event.remove({ id: "create_dd:smelting/tin_ingot_from_crushed" });
-  event.remove({ id: "create_dd:blasting/tin_ingot_from_crushed" });
-  event.remove({ id: "create_dd:mechanical_crafting/forest_ravager"});
-  event.remove({ id: "create_dd:crafting/deforester_saw" });
   //create_sa recipes remove
   event.remove({ id: "create_sa:brass_drill_head_recipe" });
   event.remove({ id: "create_sa:brass_pickaxe_recipe" });

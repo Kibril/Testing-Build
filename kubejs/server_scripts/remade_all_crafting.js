@@ -1,13 +1,6 @@
 onEvent('recipes', event => {
 	//minecraft vanila
 	event.shaped(
-    "minecraft:chest",
-    ["AAA", "A A", "AAA"],
-    {
-      A: "#minecraft:planks",
-    }
-  );
-	event.shaped(
     "minecraft:dispenser",
     ["AB"],
     {

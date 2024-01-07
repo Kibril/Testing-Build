@@ -93,24 +93,6 @@ onEvent('recipes', event => {
     type: "create:splashing",
     ingredients: [
       {
-        item: "kubejs:inpurified_tin",
-      },
-    ],
-    results: [
-      {
-        item: "create:crushed_raw_tin",
-        count: 1,
-      },
-      {
-        item: "minecraft:glowstone_dust",
-        chance: 0.35,
-      },
-    ],
-  });
-	event.custom({
-    type: "create:splashing",
-    ingredients: [
-      {
         item: "kubejs:inpurified_cobalt",
       },
     ],

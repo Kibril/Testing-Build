@@ -22,10 +22,10 @@ onEvent("item.registry", (event) => {
     .create("inpurified_zinc")
     .texture("kubejs:item/crushed_raw_zinc_inpurified")
     .displayName("Inpurified Crushed Raw Zinc");
-  event
-    .create("inpurified_tin")
-    .texture("kubejs:item/crushed_raw_tin_inpurified")
-    .displayName("Inpurified Crushed Raw Tin");
+  //event
+  //  .create("inpurified_tin")
+  //  .texture("kubejs:item/crushed_raw_tin_inpurified")
+  //  .displayName("Inpurified Crushed Raw Tin");
   event
     .create("inpurified_aluminum")
     .texture("kubejs:item/crushed_raw_aluminum_inpurified")

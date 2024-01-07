@@ -113,24 +113,24 @@ event.recipes.createCrushing(
   ],
   "tconstruct:cobalt_ore"
 );
-event.recipes.createCrushing(
-  [
-    Item.of("2x kubejs:inpurified_tin"),
-    Item.of("kubejs:inpurified_tin").withChance(0.75),
-    Item.of("create:experience_nugget").withChance(0.75),
-    Item.of("minecraft:cobblestone").withChance(0.12),
-  ],
-  "create_dd:tin_ore"
-);
-event.recipes.createCrushing(
-  [
-    Item.of("2x kubejs:inpurified_tin"),
-    Item.of("kubejs:inpurified_tin").withChance(0.75),
-    Item.of("create:experience_nugget").withChance(0.75),
-    Item.of("minecraft:cobblestone").withChance(0.12),
-  ],
-  "create_dd:deepslate_tin_ore"
-);
+//event.recipes.createCrushing(
+//  [
+//    Item.of("2x kubejs:inpurified_tin"),
+//    Item.of("kubejs:inpurified_tin").withChance(0.75),
+//    Item.of("create:experience_nugget").withChance(0.75),
+//    Item.of("minecraft:cobblestone").withChance(0.12),
+//  ],
+//  "create_dd:tin_ore"
+//);
+//event.recipes.createCrushing(
+//  [
+//    Item.of("2x kubejs:inpurified_tin"),
+//   Item.of("kubejs:inpurified_tin").withChance(0.75),
+//    Item.of("create:experience_nugget").withChance(0.75),
+//    Item.of("minecraft:cobblestone").withChance(0.12),
+//  ],
+//  "create_dd:deepslate_tin_ore"
+//);
 })
 
 onEvent('item.tags', event => {

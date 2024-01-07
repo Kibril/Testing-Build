@@ -83,26 +83,6 @@ event.custom({
   type: "create:compacting",
   ingredients: [
     {
-      item: "create:crushed_raw_tin",
-    },
-    {
-      item: "tconstruct:ingot_cast",
-    },
-  ],
-  results: [
-    {
-      item: "create_dd:tin_ingot",
-    },
-    {
-      item: "tconstruct:ingot_cast",
-    },
-  ],
-  heatRequirement: "heated",
-});
-event.custom({
-  type: "create:compacting",
-  ingredients: [
-    {
       item: "create:crushed_raw_aluminum",
     },
     {
