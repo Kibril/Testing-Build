@@ -1,0 +1,30 @@
+
+#Warning : If you lower the maximum then some conditions/entries may get truncated out of the game, so take caution when changing those values.
+["Max Amounts"]
+	#The maximal number of conditions that can be specified at once.
+	#Range: 0 ~ 100
+	maxAmountOfConditions = 15
+	#The maximal number of compendium entries that can be saved.
+	#Range: 0 ~ 100
+	maxAmountOfCompendiumEntries = 20
+	#The maximal range of detection of entities for the relevant conditions.
+	#Range: 0.0 ~ 256.0
+	maxEntitySearchRange = 64.0
+	#The maximal range of detection of block density for the relevant conditions.
+	#Warning : Higher values will very quickly start affecting your performances, be careful.
+	#Range: 0.0 ~ 128.0
+	maxBlockSearchRange = 16.0
+
+["Data Sync"]
+	#Should the server notify the player of entities that currently target them?
+	#When disabled the player.in_battle always returns false.
+	shouldTrackBattles = true
+	#The maximal amount of ticks the client will keep track of entities fighting you.
+	#This works alongside the timer value in the player.in_battle condition to tell you how long it has been since you were targeted by that enemy.
+	#As such, the parameter in the condition shouldn't exceed this value.
+	#Range: > 0
+	targetCountdownAmount = 400
+	#The maximal amount of ticks the client will keep track of whether or not you're within a structure.
+	#Range: > 0
+	structureCountdownAmount = 20
+

@@ -288,6 +288,41 @@ onEvent("recipes", (event) => {
   event.remove({ id: "twilightforest:equipment/steeleaf_hoe" });
   event.remove({ id: "twilightforest:equipment/ironwood_shovel" });
   event.remove({ id: "twilightforest:equipment/steeleaf_shovel" });
+  event.remove({ id: "twilightforest:uncrafting_table" });
+  ////////////
+  //WAYSTONES/
+  ////////////
+  event.remove({ id: "waystones:waystone" });
+  event.remove({ id: "waystones:mossy_waystone" });
+  event.remove({ id: "waystones:sandy_waystone" });
+  event.remove({ id: "waystones:sharestone" });
+  event.remove({ id: "waystones:warp_plate" });
+  event.remove({ id: "waystones:portstone" });
+  event.remove({ id: "waystones:warp_stone" });
+  event.remove({ id: "waystones:warp_dust" });
+  event.remove({ id: "waystones:portstone" });
+  /////////////////////
+  //IMMERSIVEAIRCRAFT//
+  /////////////////////
+  event.remove({ id: "immersive_aircraft:hull" });
+  event.remove({ id: "immersive_aircraft:engine" });
+  event.remove({ id: "immersive_aircraft:sail" });
+  event.remove({ id: "immersive_aircraft:propeller" });
+  event.remove({ id: "immersive_aircraft:boiler" });
+  event.remove({ id: "immersive_aircraft:airship" });
+  event.remove({ id: "immersive_aircraft:cargo_airship" });
+  event.remove({ id: "immersive_aircraft:biplane" });
+  event.remove({ id: "immersive_aircraft:gyrodyne" });
+  event.remove({ id: "immersive_aircraft:quadracopter" });
+  event.remove({ id: "immersive_aircraft:enchanced_propeller" });
+  event.remove({ id: "immersive_aircraft:eco_engine" });
+  event.remove({ id: "immersive_aircraft:nether_engine" });
+  event.remove({ id: "immersive_aircraft:steel_boiler" });
+  event.remove({ id: "immersive_aircraft:industrial_gears" });
+  event.remove({ id: "immersive_aircraft:sturdy_pipes" });
+  event.remove({ id: "immersive_aircraft:gyroscope" });
+  event.remove({ id: "immersive_aircraft:hull_reinforcement" });
+  event.remove({ id: "immersive_aircraft:improved_landing_gear" });
 });
 
 onEvent("item.tags", (event) => {

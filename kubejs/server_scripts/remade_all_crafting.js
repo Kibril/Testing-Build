@@ -91,4 +91,17 @@ onEvent('recipes', event => {
       E: Item.of("tconstruct:broad_axe", {tic_materials:["tconstruct:cobalt", "tconstruct:wood", "tconstruct:cobalt", "tconstruct:cobalt"]})
     }
   );
+  event.recipes.create.mechanical_crafting(
+    "waystones:waystone",
+    [" PJP ", "BPCPB", "BCACB", "BPCPB", " SSS "],
+    {
+      P: "minecraft:ender_pearl",
+      C: "hexcasting:charged_amethyst",
+      A: "hexcasting:artifact",
+      S: "minecraft:obsidian",
+      B: "minecraft:stone_bricks",
+      J: "aquamirae:abyssal_amethyst"
+    }
+  );
+  //immersive_aircraft
 })

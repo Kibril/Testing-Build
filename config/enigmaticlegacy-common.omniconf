@@ -223,7 +223,7 @@
     B:PactofInfiniteAvariceEnabled=true
 
     # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
-    B:PearloftheVoidEnabled=true
+    B:PearloftheVoidEnabled=false
 
     # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
     B:PotionofRecallEnabled=true
