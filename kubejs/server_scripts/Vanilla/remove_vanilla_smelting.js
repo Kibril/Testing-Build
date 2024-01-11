@@ -105,6 +105,18 @@ onEvent("recipes", (event) => {
   event.remove({ output: "minecraft:diamond_hoe" });
   event.remove({ input: "minecraft:netherite_hoe" });
   event.remove({ output: "minecraft:netherite_hoe" });
+  event.remove({ input: "minecraft:wooden_sword" });
+  event.remove({ output: "minecraft:wooden_sword" });
+  event.remove({ input: "minecraft:stone_sword" });
+  event.remove({ output: "minecraft:stone_sword" });
+  event.remove({ input: "minecraft:golden_sword" });
+  event.remove({ output: "minecraft:golden_sword" });
+  event.remove({ input: "minecraft:iron_sword" });
+  event.remove({ output: "minecraft:iron_sword" });
+  event.remove({ input: "minecraft:diamond_sword" });
+  event.remove({ output: "minecraft:diamond_sword" });
+  event.remove({ input: "minecraft:netherite_sword" });
+  event.remove({ output: "minecraft:netherite_sword" });
   event.remove({ input: "minecraft:bow" });
   event.remove({ output: "minecraft:bow" });
   event.remove({ id: "minecraft:dispenser"});
@@ -323,6 +335,10 @@ onEvent("recipes", (event) => {
   event.remove({ id: "immersive_aircraft:gyroscope" });
   event.remove({ id: "immersive_aircraft:hull_reinforcement" });
   event.remove({ id: "immersive_aircraft:improved_landing_gear" });
+  /////////////////
+  //AMBIENCEBLOCKS/
+  /////////////////
+  event.remove({ id: "ambienceblocks:wooden_ambience_block" });
 });
 
 onEvent("item.tags", (event) => {

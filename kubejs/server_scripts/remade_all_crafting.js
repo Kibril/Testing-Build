@@ -104,4 +104,20 @@ onEvent('recipes', event => {
     }
   );
   //immersive_aircraft
+  //ambienceblocks
+  event.recipes.create.mechanical_crafting(
+    "ambienceblocks:wooden_ambience_block",
+    [" LPL ", "NCQCN", "RHDHR", "NBDBN", " BBB "],
+    {
+      L: "create:rose_quartz_lamp",
+      P: "minecraft:glass_pane",
+      N: "minecraft:note_block",
+      C: "create:copper_sheet",
+      Q: "create:polished_rose_quartz",
+      R: "minecraft:redstone",
+      H: "minecraft:redstone_block",
+      D: "minecraft:diamond_block",
+      B: "minecraft:oak_planks",
+    }
+  );
 })
