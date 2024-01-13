@@ -223,7 +223,7 @@
     B:PactofInfiniteAvariceEnabled=true
 
     # Whether or not Pearl of the Void should be enabled. [default: true, synchronized: yes]
-    B:PearloftheVoidEnabled=false
+    B:PearloftheVoidEnabled=true
 
     # Whether or not Potion of Recall should be enabled. [default: true, synchronized: yes]
     B:PotionofRecallEnabled=true
@@ -595,8 +595,8 @@
     # Active ability cooldown for Will of the Ocean. Measured in ticks. 20 ticks equal to 1 second. [range: 0 ~ 32768, default: 600, synchronized: yes]
     I:OceanStoneCooldown=3600
 
-    # Swimming speed boost provided by Will of the Ocean. Defined as percentage. [range: 0 ~ 1000, default: 200, synchronized: yes]
-    I:OceanStoneSwimBoost=200
+    # Swimming speed boost provided by Will of the Ocean. Defined as percentage. [range: 0 ~ 1000, default: 100, synchronized: yes]
+    I:OceanStoneSwimBoost=80
 
     # Damage resistance against underwater creatures provided by Will of the Ocean. Defined as percentage. [range: 0 ~ 100, default: 40, synchronized: yes]
     I:OceanStoneUnderwaterCreaturesResistance=40
