@@ -1,0 +1,102 @@
+[
+  {
+    "item": "minecraft:chainmail_boots",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:chainmail_leggings",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:chainmail_chestplate",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:chainmail_helmet",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:golden_boots",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:golden_leggings",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:golden_chestplate",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:golden_helmet",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_boots",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_leggings",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_chestplate",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_helmet",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:stone_sword",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:stone_pickaxe",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:stone_axe",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_pickaxe",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_shovel",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:iron_sword",
+    "weight": 25
+  },
+  {
+    "item": "minecraft:golden_pickaxe",
+    "weight": 10
+  },
+  {
+    "item": "minecraft:golden_shovel",
+    "weight": 10
+  },
+  {
+    "item": "enigmaticlegacy:thicc_scroll",
+    "weight": 12
+  },
+  {
+    "item": "enigmaticlegacy:lore_fragment",
+    "weight": 14
+  },
+  {
+    "item": "enigamticlegacy:earth_heart",
+    "weight": 4
+  },
+  {
+    "item": "enigmaticlegacy:golem_heart",
+    "weight": 2
+  },
+  {
+    "item": "enigmaticlegacy:darkest_scroll",
+    "weight": 2
+  }
+]

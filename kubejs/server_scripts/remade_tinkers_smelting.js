@@ -9,6 +9,8 @@ console.info(
   "Remove enigmatic legacy smelting reloaded!"
 );
 
+//VANILA OMAGAD!
+
 onEvent("recipes", (event) => {
 event.custom({
   type: "forge:conditional",
@@ -603,6 +605,507 @@ event.custom({
     }
   ]
 });
+
+//AQUACULTURE//
+
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_helmet"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_chestplate"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_leggings"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_boots"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_fishing_rod"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_pickaxe"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_axe"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_shovel"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_hoe"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_sword"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "aquaculture:neptunium_bow"
+  },
+  "result": {
+    "fluid": "tcintegrations:neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+
+//CREATE STUFF AND ADDITIONS
+
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_helmet"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_chestplate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_leggings"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_boots"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_pickaxe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_axe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_sword"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_shovel"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:brass_hoe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_brass",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_helmet"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_chestplate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_leggings"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_boots"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_pickaxe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_axe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_sword"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_shovel"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:zinc_hoe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_helmet"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_chestplate"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_leggings"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_boots"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_pickaxe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_axe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_sword"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_shovel"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+event.custom({
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "create_sa:copper_hoe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_copper",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1250,
+  "time": 74,
+});
+
 });
 
 onEvent("item.tags", (event) => {

@@ -1,0 +1,82 @@
+[
+  {
+    "item": "minecraft:diamond_boots",
+    "weight": 10
+  },
+  {
+    "item": "minecraft:diamond_leggings",
+    "weight": 10
+  },
+  {
+    "item": "minecraft:diamond_chestplate",
+    "weight": 10
+  },
+  {
+    "item": "minecraft:diamond_helmet",
+    "weight": 10
+  },
+  {
+    "item": "minecraft:iron_boots",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_leggings",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_chestplate",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_helmet",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_pickaxe",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_shovel",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:iron_sword",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:diamond_pickaxe",
+    "weight": 20
+  },
+  {
+    "item": "minecraft:diamond_sword",
+    "weight": 20
+  },
+  {
+    "item": "diamond_shovel",
+    "weight": 20
+  },
+  {
+    "item": "enigmaticlegacy:thicc_scroll",
+    "weight": 20
+  },
+  {
+    "item": "enigmaticlegacy:lore_fragment",
+    "weight": 20
+  },
+  {
+    "item": "enigamticlegacy:earth_heart",
+    "weight": 10
+  },
+  {
+    "item": "enigmaticlegacy:golem_heart",
+    "weight": 4
+  },
+  {
+    "item": "enigmaticlegacy:darkest_scroll",
+    "weight": 10
+  },
+  {
+    "item": "enigmaticlegacy:unholy_grail",
+    "weight": 2
+  }
+]

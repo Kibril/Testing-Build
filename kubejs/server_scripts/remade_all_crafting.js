@@ -120,4 +120,17 @@ onEvent('recipes', event => {
       B: "minecraft:oak_planks",
     }
   );
+  //createdeco
+  event.replaceInput({}, 'createdeco:cast_iron_ingot', '#createbigcannons:ingot_cast_iron');
+  //explorerscompass
+	event.shaped(
+    "explorerscompass:explorerscompass",
+    ["ACA", "CBC", "ACA"],
+    {
+      A: "minecraft:netherite_ingot",
+      B: "minecraft:nether_star",
+      C: "minecraft:ender_eye",
+    }
+  );
+	//s
 })

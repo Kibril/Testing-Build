@@ -262,6 +262,7 @@ onEvent("recipes", (event) => {
   event.remove({ id: "aquaculture:neptunium_sword" });
   event.remove({ id: "aquaculture:neptunium_shovel" });
   event.remove({ id: "aquaculture:neptunium_hoe" });
+  event.remove({ id: "aquaculture:neptunium_ingot_from_blasting" });
   /////////////////
   //FARMESDELIGHT//
   /////////////////
@@ -339,6 +340,10 @@ onEvent("recipes", (event) => {
   //AMBIENCEBLOCKS/
   /////////////////
   event.remove({ id: "ambienceblocks:wooden_ambience_block" });
+  ////////////////////
+  //EXPLORERSCOMPASS//
+  ////////////////////
+  event.remove({ id: "explorerscompass:explorers_compass" });
 });
 
 onEvent("item.tags", (event) => {
